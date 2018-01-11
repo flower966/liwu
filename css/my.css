@@ -1,0 +1,281 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-01-05 17:53:12
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-01-11 11:33:43
+*/
+@import url("base.css");
+body{
+	height: 20rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 530886 */
+  src: url('http://at.alicdn.com/t/font_530886_8nfrdt3j80d4pldi.eot');
+  src: url('http://at.alicdn.com/t/font_530886_8nfrdt3j80d4pldi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_530886_8nfrdt3j80d4pldi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_530886_8nfrdt3j80d4pldi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_530886_8nfrdt3j80d4pldi.svg#iconfont') format('svg');
+}
+.iconfont
+{
+	font-family:'iconfont';
+}
+i
+{
+	font-style: normal;
+}
+.top{
+	width: 100%;
+	height: 1.2rem;
+	background: #fefefe;
+	border-bottom: 0.02rem solid #cccccc;
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	top: 0;
+	left: 0;
+    z-index: 9999;
+}
+.top_zi{
+	width: 0.9rem;
+	height: 0.5rem;
+	background: #fefefe;
+	margin-top: 0.4rem;
+	margin-left: 0.5rem;
+}
+.zi{
+	font-size: 0.41rem;
+	color: #a19b9d;
+}
+.top1{
+	width: 2.08rem;
+	height: 0.5rem;
+	background: #fefefe;
+	margin-left: 3rem;
+	margin-top: 0.3rem;
+}
+.zi1{
+	font-size: 0.5rem;
+	color: #331d1f;
+}
+.top2{
+	width: 2.51rem;
+	height: 0.5rem;
+	background: #fefefe;
+	margin-top: 0.4rem;
+	margin-left: 1.7rem;
+}
+.zi2{
+	font-size: 0.41rem;
+	color: #a19b9d;
+	float: left;
+	padding-left: 0.3rem;
+}
+.people{
+	width: 100%;
+	height: 3.1rem;
+	background: #fefefe;
+	margin-top: 1.2rem;
+	overflow: hidden;
+	/* display: flex;
+	flex-direction: row; */
+}
+.touxiang{
+	width: 2.05rem;
+	height: 2.05rem;
+	background: #fac9f7;
+	border-radius: 50%;
+	margin-top: 0.77rem;
+	margin-left: 0.45rem;
+	float: left;	
+}
+.name{
+	width: 5rem;
+	height: 0.5rem;
+	/* background: red; */
+	float: left;
+	margin-top: 0.4rem;
+}
+.zi3{
+	font-size: 0.5rem;
+	color: #381f22;
+	margin-top: 0.7rem;
+	margin-left: 0.5rem;
+}
+.people p{
+	font-size: 0.5rem;
+	color: #381f22;
+}
+.gengduo{
+	width: 0.7rem;
+	height: 0.7rem;
+	background: #fefefe;
+	float: right;
+	margin-top: 1.2rem;
+	margin-right: 0.6rem;
+}
+.icon1{
+	font-size: 0.45rem;
+	color: #dad1d2;
+}
+.goumai{
+	width: 100%;
+	height: 2rem;
+	background: #ffffff;
+	border-top: 1px solid #f9f5f4;
+	border-bottom: 0.32rem solid #f9f5f4;
+}
+.goumai1{
+	width: calc(100% / 3);
+	height: 2rem;
+	background: #fefefe;
+	float: left;
+}
+.tubiao{
+	width: 0.65rem;
+	height: 0.65rem;
+	background: #fefefe;
+	margin-left: 1.2rem;	
+}
+.icon2{
+	display: block;
+	font-size: 0.6rem;
+	color: #565453;
+	margin-top: 0.36rem;
+	margin-left: 0.4rem;
+}
+.tubiao li a h2{
+	width: 2rem;
+	height: 0.35rem;
+	font-size: 0.3rem;
+	color: #aeaaa9;
+	margin-top: 0.2rem;	
+}
+.dingdan{
+	width: 100%;
+	height: 1.5rem;
+	background: #fefefe;
+	overflow: hidden;
+	border-bottom: 0.03rem solid #f9f5f4;
+}
+.tubiao1{
+	width: 0.7rem;
+	height: 0.7rem;
+	background: #fefefe;
+	margin-top: 0.4rem;
+	margin-left: 0.5rem;
+	float: left;
+}
+.icon3{
+	font-size: 0.65rem;
+	color: #bdcdfe;
+}
+.name1{
+	width: 5rem;
+	height: 0.5rem;
+	float: left;
+	margin-top: 0.4rem;
+}
+.zi4{
+	font-size: 0.5rem;
+	color: #381f22;
+	margin-left: 0.45rem;
+}
+.gengduo1{
+	width: 0.7rem;
+	height: 0.7rem;
+	background: #fefefe;
+	float: right;
+	margin-right: 0.6rem;
+	margin-top: 0.4rem;
+}
+.icon4{
+	font-size: 0.45rem;
+	color: #dad1d2;
+}
+.gongneng{
+	width: 100%;
+	height: 1.5rem;
+	background: #fefefe;
+}
+.tubiao2{
+	width: 0.75rem;
+	height: 0.75rem;
+	background: #fefefe;
+	margin-top: 0.4rem;
+	margin-left: 0.5rem;
+	float: left;
+}
+.icon5{
+	font-size: 0.65rem;
+	color: #bdcdfe;
+}
+.name2{
+	width: 5rem;
+	height: 1rem;
+	float: left;
+	margin-top: 0.4rem;
+}
+.zi5{
+	font-size: 0.55rem;
+	color: #381f22;
+	margin-left: 0.45rem;
+}
+.border1{
+	border-bottom: 0.02rem solid #f9f5f4;
+}
+.border2{
+	border-bottom: 0.32rem solid #f9f5f4;
+}
+.border3{
+	border-bottom: 0.60rem solid #f9f5f4;
+}
+.tab{
+	width: 100%;
+	height: 1.44rem;
+	background: #fefefe;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.shouye{
+	width: 2.7rem;
+	height: 1.44rem;
+	background: #fefefe;
+	float: left;
+}
+.shouye1{
+	font-size: 0.27rem;
+	color: #fb4458;
+	margin-left: 0.9rem;
+}
+.icon6{
+	font-size: 0.66rem;
+	color: #fb4458;
+	margin-left: 1.02rem;
+}
+.shouye2{
+	font-size: 0.27rem;
+	color: #ccc;
+	margin-left: 0.9rem;
+}
+.icon7{
+	font-size: 0.66rem;
+	color: #b8aaa9;
+	margin-left: 1.02rem;
+}
+.icon8{
+	color: #e3bd76;
+}
+.icon9{
+	color: #bfaad5;
+}
+.icon10{
+	color: #f6a975;
+}
+.icon11{
+	color: #fb8f9c;
+}
+.icon12{
+	color: #a0b7eb;
+}
